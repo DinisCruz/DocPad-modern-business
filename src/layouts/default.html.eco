@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title><%= @document.title %></title>
+    <%- @getBlock("meta").toHTML() %>
+    <%- @getBlock("styles").toHTML() %>
+</head>
+<body>
+    <%- @content %>
+    <%- @getBlock("scripts").toHTML() %>
+
+
+    
+</body>
+</html>

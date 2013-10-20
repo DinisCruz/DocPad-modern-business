@@ -1,0 +1,13 @@
+---
+layout: default
+meaningOf: 42123
+---
+
+..
+<%= @document.meaningOf %> :123
+
+
+<h1><%= @document.title %></h1>
+<div><%- @content %></div>
+
+this was edited on post.html.eco
